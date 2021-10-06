@@ -37,7 +37,9 @@ services:
     networks: 
       - microservices-network 
     ports:
-      - "5438:5438"
+      - "5438:5432"
+    expose:
+      - 5438
 
   postgres-book:
     image: postgres:10
@@ -53,7 +55,9 @@ services:
     networks: 
       - microservices-network 
     ports:
-      - "5439:5439"
+      - "5439:5432"
+    expose:
+      - 5439
 
   naming-service:
     image: rangeldiego/naming-service:0.0.1-SNAPSHOT
