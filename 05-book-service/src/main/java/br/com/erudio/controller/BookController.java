@@ -3,17 +3,19 @@ package br.com.erudio.controller;
 import br.com.erudio.Model.Book;
 import br.com.erudio.Repository.BookRepository;
 import br.com.erudio.proxy.CambioProxy;
+import br.com.erudio.request.BookRequest;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+
 @Tag(name = "Book endpoiny")
 @RestController
 @RequestMapping("book-service")
+@Slf4j
 public class BookController {
 
     @Autowired
@@ -39,6 +41,26 @@ public class BookController {
 
         book.setEnvironment(port + " FEIGN");
         book.setPrice(cambio.getConversionValue());
+        return book;
+    }
+
+    @Operation(summary = "Save new book")
+    @PostMapping(value = "/")
+    public Book save(@Validated @RequestBody BookRequest bookRequest) {
+
+        log.info("Salvando Book...");
+        var port = environment.getProperty("local.server.port");
+        //var book = bookRepository.getById(id);
+        if (bookRequest == null) throw new RuntimeException("Book incomplete.");
+
+        if (bookRequest.getPrice() == null ) throw new RuntimeException("Price mandatory.");
+        if (bookRequest.getAuthor() == null ) throw new RuntimeException("Author mandatory.");
+        if (bookRequest.getTitle() == null ) throw new RuntimeException("Title mandatory.");
+        Book book = new Book(1L, bookRequest.getAuthor(), bookRequest.getLaunchDate()
+                            , bookRequest.getPrice(), bookRequest.getTitle(), bookRequest.getCurrency(), port);
+
+        book.setEnvironment(port + " FEIGN");
+        bookRepository.save(book);
         return book;
     }
 
