@@ -1,0 +1,4 @@
+br/com/erudio/Startup.class
+br/com/erudio/model/Greeting.class
+br/com/erudio/controller/GreetingController.class
+br/com/erudio/configuration/GreetingConfiguration.class
