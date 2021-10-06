@@ -2,7 +2,7 @@ version: '3'
 services:
 
   rabbit-mq:
-    image: rabbit-mq:3.8.14-management
+    image: rabbitmq:3-management
     container_name: rabbit-mq
     hostname: rabbit-mq
     networks: 
@@ -86,7 +86,7 @@ services:
     ports:
       - 8000:8000
     depends_on:
-      - naming-server
+      - naming-service
       - postgres-cambio
       - rabbit-mq
     networks:
@@ -115,7 +115,7 @@ services:
     ports:
       - 8100:8100
     depends_on:
-      - naming-server
+      - naming-service
       - postgres-book
       - rabbit-mq
     networks:
@@ -207,8 +207,8 @@ networks:
 #     networks:
 #       - erudio-network
 
-#   naming-server:
-#     image: leandrocgsi/naming-server:0.0.1-SNAPSHOT
+#   naming-service:
+#     image: leandrocgsi/naming-service:0.0.1-SNAPSHOT
 #     ports:
 #       - 8761:8761
 #     networks:
@@ -219,10 +219,10 @@ networks:
 #     ports:
 #       - 8765:8765
 #     depends_on:
-#       - naming-server
+#       - naming-service
 #       - rabbit-mq
 #     environment:
-#       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+#       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-service:8761/eureka
 #       SPRING.ZIPKIN.BASEURIO: http://zipkin-server:9411/
 #       RABBIT_URI: amqp://guest:guest@rabbit-mq:5672
 #       SPRING_RABBITMQ_HOST: rabbit-mq
@@ -238,7 +238,7 @@ networks:
 #       dockerfile: 10-cambio-service/Dockerfile
 #     environment:
 #       TZ: America/Sao_Paulo
-#       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+#       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-service:8761/eureka
 #       SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
 #       RABBIT_URI: amqp://guest:guest@rabbit-mq:5672
 #       SPRING_RABBITMQ_HOST: rabbit-mq
@@ -252,7 +252,7 @@ networks:
 #     ports:
 #       - 8000:8000
 #     depends_on:
-#       - naming-server
+#       - naming-service
 #       - cambio-db
 #       - rabbit-mq
 #     networks:
@@ -266,7 +266,7 @@ networks:
 #       dockerfile: 10-book-service/Dockerfile
 #     environment:
 #       TZ: America/Sao_Paulo
-#       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-server:8761/eureka
+#       EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://naming-service:8761/eureka
 #       SPRING.ZIPKIN.BASEURL: http://zipkin-server:9411/
 #       RABBIT_URI: amqp://guest:guest@rabbit-mq:5672
 #       SPRING_RABBITMQ_HOST: rabbit-mq
@@ -280,7 +280,7 @@ networks:
 #     ports:
 #       - 8100:8100
 #     depends_on:
-#       - naming-server
+#       - naming-service
 #       - book-db
 #       - rabbit-mq
 #     networks:
