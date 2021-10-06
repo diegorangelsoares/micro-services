@@ -37,7 +37,7 @@ services:
     networks: 
       - microservices-network 
     ports:
-      - "5438:5432"
+      - "5438:5438"
     expose:
       - 5438
 
@@ -55,7 +55,7 @@ services:
     networks: 
       - microservices-network 
     ports:
-      - "5439:5432"
+      - "5439:5439"
     expose:
       - 5439
 
