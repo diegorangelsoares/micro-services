@@ -1,10 +1,7 @@
-package br.com.erudio.model;
+package br.com.erudio.reponse;
 
-import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.*;
 import java.io.Serializable;
-import java.math.BigDecimal;
 
 public class Cambio implements Serializable {
 

@@ -1,9 +1,10 @@
 package br.com.erudio.controller;
 
-import br.com.erudio.Model.Book;
-import br.com.erudio.Repository.BookRepository;
+import br.com.erudio.model.Book;
+import br.com.erudio.repository.BookRepository;
 import br.com.erudio.proxy.CambioProxy;
 import br.com.erudio.request.BookRequest;
+import br.com.erudio.service.BookService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
@@ -21,8 +22,11 @@ public class BookController {
     @Autowired
     private Environment environment;
 
+//    @Autowired
+//    private BookRepository bookRepository;
+
     @Autowired
-    private BookRepository bookRepository;
+    private BookService bookService;
 
     @Autowired
     private CambioProxy cambioProxy;
@@ -34,7 +38,7 @@ public class BookController {
             @PathVariable("currency") String currency
     ){
         var port = environment.getProperty("local.server.port");
-        var book = bookRepository.getById(id);
+        var book = bookService.getById(id);
         if (book == null) throw new RuntimeException("Book not found.");
 
         var cambio = cambioProxy.getCambio(book.getPrice(), "USD", currency);
@@ -56,12 +60,11 @@ public class BookController {
         if (bookRequest.getPrice() == null ) throw new RuntimeException("Price mandatory.");
         if (bookRequest.getAuthor() == null ) throw new RuntimeException("Author mandatory.");
         if (bookRequest.getTitle() == null ) throw new RuntimeException("Title mandatory.");
-        Book book = new Book(1L, bookRequest.getAuthor(), bookRequest.getLaunchDate()
-                            , bookRequest.getPrice(), bookRequest.getTitle(), bookRequest.getCurrency(), port);
 
-        book.setEnvironment(port + " FEIGN");
-        bookRepository.save(book);
-        return book;
+        bookRequest.setEnvironment(port + " FEIGN");
+        //bookRepository.save(book);
+
+        return bookService.save(bookRequest);
     }
 
 

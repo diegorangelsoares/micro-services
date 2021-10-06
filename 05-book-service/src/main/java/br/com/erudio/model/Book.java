@@ -1,4 +1,4 @@
-package br.com.erudio.Model;
+package br.com.erudio.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
