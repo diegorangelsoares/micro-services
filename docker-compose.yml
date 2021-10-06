@@ -16,6 +16,7 @@ services:
     container_name: 'zipkin-server'
     ports:
       - 9411:9411
+    restart: always
     depends_on:
       - rabbit-mq
     environment:
