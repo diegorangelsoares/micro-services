@@ -38,21 +38,21 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQL9Dialect
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
-#  flyway:
-#    url: jdbc:postgresql://localhost:5433/autentication-service
-#    user: postgres
-#    password: postgres
-#    baseline-on-migrate: true
-#    validate-on-migrate: false
-#    table: service1_flyway_schema_history
-#    baseline-version: 0
-#  jackson:
-#    serialization:
-#      fail-on-empty-beans: false
-#    default-property-inclusion: NON_NULL
-#  sleuth:
-#    sampler:
-#      probability: 1.0
+  flyway:
+    url: jdbc:postgresql://localhost:5433/autentication-service
+    user: postgres
+    password: postgres
+    baseline-on-migrate: true
+    validate-on-migrate: false
+    table: service1_flyway_schema_history
+    baseline-version: 0
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+    default-property-inclusion: NON_NULL
+  sleuth:
+    sampler:
+      probability: 1.0
 #  config:
 #    import: "optional:configserver:"
 #springdoc:
