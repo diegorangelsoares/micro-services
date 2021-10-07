@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/06-api-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-naming-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-naming-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/autentication-service/src/main/java" charset="UTF-8" />
   </component>
 </project>

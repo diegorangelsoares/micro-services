@@ -12,11 +12,13 @@
         <module name="naming-service" />
         <module name="book-service" />
         <module name="06-api-gateway" />
+        <module name="autentication" />
         <module name="cambio-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="06-api-gateway" target="11" />
+      <module name="autentication" target="11" />
       <module name="book-service" target="11" />
       <module name="cambio-service" target="11" />
       <module name="erudio-config-server" target="11" />
@@ -27,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="06-api-gateway" options="-parameters" />
+      <module name="autentication" options="-parameters" />
       <module name="book-service" options="-parameters" />
       <module name="cambio-service" options="-parameters" />
       <module name="erudio-config-server" options="-parameters" />
