@@ -1,5 +1,6 @@
 package br.com.erudio.service;
 
+import br.com.erudio.exception.BookNotFoundException;
 import br.com.erudio.model.Book;
 import br.com.erudio.repository.BookRepository;
 import br.com.erudio.request.BookRequest;
@@ -20,7 +21,9 @@ public class BookService {
     }
 
     public Book getById(Long id) {
-        return bookRepository.findById(id).get();
+        return bookRepository.findById(id)
+                .orElseThrow(() -> new BookNotFoundException(String.format(
+                        "Book not found by ID [%s]!", id)));
     }
 
     public Book save (BookRequest bookRequest){
