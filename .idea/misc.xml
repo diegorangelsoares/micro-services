@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/04-greeting-service/pom.xml" />
         <option value="$PROJECT_DIR$/04-erudio-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/autentication-service/pom.xml" />
+        <option value="$PROJECT_DIR$/usuario-service/pom.xml" />
       </list>
     </option>
   </component>
