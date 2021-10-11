@@ -10,7 +10,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-//@Tag(name = "Cliente endpoiny")
+import java.util.List;
+
 @RestController
 @RequestMapping("cadastro-service")
 @Slf4j
@@ -19,24 +20,24 @@ public class ClienteController {
     @Autowired
     private ClienteService clienteService;
 
-    //@Operation(summary = "find a specific book by your ID")
-    @GetMapping(value = "/{id}/{currency}")
+    @GetMapping(value = "/{id}/")
     public ResponseEntity<Cliente> findCliente(
-            @PathVariable("id") Long id//,
-            //@PathVariable("currency") String currency
+            @PathVariable("id") Long id
     ){
-        //var port = environment.getProperty("local.server.port");
         var cliente = clienteService.buscarPorId(id);
         if (cliente == null) throw new RuntimeException("Cliente not found.");
 
-        //var cambio = cambioProxy.getCambio(book.getPrice(), "USD", currency);
-
-//        book.setEnvironment(port + " FEIGN");
-//        book.setPrice(cambio.getConversionValue());
         return ResponseEntity.status(HttpStatus.OK).body(cliente);
     }
 
-    //@Operation(summary = "Save new book")
+    @GetMapping(value = "/")
+    public ResponseEntity<List<Cliente>> findAll(){
+        List<Cliente> clientes = clienteService.buscarTodos();
+        if (clientes == null) throw new RuntimeException("Cliente not found.");
+
+        return ResponseEntity.status(HttpStatus.OK).body(clientes);
+    }
+
     @PostMapping(value = "/")
     public ResponseEntity<Cliente> save(@Validated @RequestBody ClienteRequest bookRequest) {
 

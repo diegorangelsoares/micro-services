@@ -10,6 +10,7 @@ public class NamingServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(NamingServiceApplication.class, args);
+		System.out.println("Link do Eureka: http://localhost:8761/");
 	}
 
 }

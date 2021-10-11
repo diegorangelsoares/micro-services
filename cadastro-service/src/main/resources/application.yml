@@ -1,12 +1,12 @@
 server:
   port: 8308
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:8761/eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
 spring:
   application:
-    name: cambio-service
+    name: cadastro-service
   datasource:
     url: jdbc:postgresql://localhost:5433/cadastro_service
     username: postgres
@@ -21,7 +21,7 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQL9Dialect
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
 #  flyway:
-#    url: jdbc:postgresql://localhost:5433/cambio_service
+#    url: jdbc:postgresql://localhost:5433/cadastro_service
 #    user: postgres
 #    password: postgres
 #    baseline-on-migrate: true
