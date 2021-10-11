@@ -8,11 +8,11 @@
 		<version>2.5.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>expertostech</groupId>
+	<groupId>br.com.erudio</groupId>
 	<artifactId>usuario-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>usuario-service</name>
-	<description>Encriptar senha do usuário</description>
+	<description>Serviço de Cadastro e alteração de usuário</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
