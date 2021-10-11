@@ -13,6 +13,7 @@
         <module name="naming-service" />
         <module name="book-service" />
         <module name="06-api-gateway" />
+        <module name="cadastro-service" />
         <module name="autentication" />
         <module name="cambio-service" />
       </profile>
@@ -21,6 +22,7 @@
       <module name="06-api-gateway" target="11" />
       <module name="autentication" target="11" />
       <module name="book-service" target="11" />
+      <module name="cadastro-service" target="11" />
       <module name="cambio-service" target="11" />
       <module name="erudio-config-server" target="11" />
       <module name="greeting-service" target="11" />
@@ -33,6 +35,7 @@
       <module name="06-api-gateway" options="-parameters" />
       <module name="autentication" options="-parameters" />
       <module name="book-service" options="-parameters" />
+      <module name="cadastro-service" options="-parameters" />
       <module name="cambio-service" options="-parameters" />
       <module name="erudio-config-server" options="-parameters" />
       <module name="greeting-service" options="-parameters" />

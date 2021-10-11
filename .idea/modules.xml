@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/06-api-gateway/06-api-gateway.iml" filepath="$PROJECT_DIR$/06-api-gateway/06-api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/autentication-service/autentication.iml" filepath="$PROJECT_DIR$/autentication-service/autentication.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-book-service/book-service.iml" filepath="$PROJECT_DIR$/05-book-service/book-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cadastro-service/cadastro-service.iml" filepath="$PROJECT_DIR$/cadastro-service/cadastro-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-cambio-service/cambio-service.iml" filepath="$PROJECT_DIR$/05-cambio-service/cambio-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-erudio-config-server/erudio-config-server.iml" filepath="$PROJECT_DIR$/04-erudio-config-server/erudio-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-greeting-service/greeting-service.iml" filepath="$PROJECT_DIR$/04-greeting-service/greeting-service.iml" />

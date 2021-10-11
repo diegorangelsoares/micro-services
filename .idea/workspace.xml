@@ -5,79 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Ajustes de autenticacao">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_12_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_32_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_10_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_10_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_x_stream_mxparser_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_3_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_3_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_3_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_3_1_0_M2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/CadastroServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/exception/ClienteNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/exception/handler/ClienteExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/exception/model/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/request/ClienteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/java/br/com/erudio/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/main/resources/db/migration/V1__Create_Table_Clientes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OLD_cadastro-service/src/test/java/br/com/erudio/CadastroServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/CadastroServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/configuration/OpenApiConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/exception/ClienteNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/exception/handler/ClienteExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/exception/model/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/request/ClienteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/resources/db/migration/V1__Create_Table_Clientes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/test/java/br/com/erudio/CadastroServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario-service/src/main/java/expertostech/encriptar/senha/UsuarioServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/main/java/br/com/users/UsuarioServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario-service/src/main/java/expertostech/encriptar/senha/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/main/java/br/com/users/controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario-service/src/main/java/expertostech/encriptar/senha/model/UsuarioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/main/java/br/com/users/model/UsuarioModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario-service/src/main/java/expertostech/encriptar/senha/repository/UsuarioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/main/java/br/com/users/repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuario-service/src/test/java/expertostech/encriptar/senha/UsuarioServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/usuario-service/src/test/java/br/com/users/UsuarioServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-api-gateway/src/main/java/br/com/erudio/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-api-gateway/src/main/java/br/com/erudio/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/06-api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autentication-service/src/main/java/br/com/erudio/AutenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/autentication-service/src/main/java/br/com/erudio/AutenticationApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +73,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -116,7 +103,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-boot-autenticacao-jwt-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cadastro-service/src/main/resources/db/migration" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -126,10 +113,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cadastro-service/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio" />
       <recent name="$PROJECT_DIR$/autentication-service/src/main/resources/db" />
       <recent name="$PROJECT_DIR$/autentication-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/05-cambio-service/src/main/java/br/com/erudio" />
-      <recent name="$PROJECT_DIR$/05-book-service/src/main/java/br/com/erudio" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.erudio.configuration" />
@@ -143,7 +131,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UsuarioServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CadastroServiceApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -172,6 +160,13 @@
     <configuration name="BookServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="book-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.BookServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cadastro-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.CadastroServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,7 +239,7 @@
       <workItem from="1633632165825" duration="4851000" />
       <workItem from="1633692477253" duration="4124000" />
       <workItem from="1633711504378" duration="1208000" />
-      <workItem from="1633952942963" duration="671000" />
+      <workItem from="1633952942963" duration="8455000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes de endpoint post no book">
       <created>1633551777408</created>
@@ -295,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633693714769</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ajustes de autenticacao">
+      <created>1633959502735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633959502735</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

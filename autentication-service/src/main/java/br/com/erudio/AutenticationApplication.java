@@ -15,6 +15,12 @@ public class AutenticationApplication {
 		SpringApplication.run(AutenticationApplication.class, args);
 		System.out.println("Link do Swagger: http://localhost:8765/webjars/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/");
 		System.out.println("Link do ZipKin para monitorar requests: http://localhost:9411/zipkin/?lookback=15m&endTs=1633460640845&limit=10");
+		System.out.println("Url para autenticar via Postman: http://localhost:8200/login");
+		System.out.println("Json:\n" +
+				"{\n" +
+				"    \"login\":\"user\",\n" +
+				"    \"password\": \"password\"\n" +
+				"}");
 	}
 
 	@Bean

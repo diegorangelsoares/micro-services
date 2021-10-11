@@ -19,6 +19,10 @@ spring:
           enabled: true
 #          lower-case-service-id: true
       routes:
+      - id: cadastro-service
+        uri: lb://cadastro-service
+        predicates:
+        - Path=/cadastro-service/**
       - id: cambio-service
         uri: lb://cambio-service
         predicates:
