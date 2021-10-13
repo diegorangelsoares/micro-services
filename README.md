@@ -15,6 +15,19 @@ Projeto de reciclagem de conhecimento contento:
   - Feign
   - Actuator
 
+Serviços criados:
+- Gestão Book
+- Gestão Cambio
+- Gestão Cadastro de Clientes
+- Gestão ConfigServer
+- Gestão CEP
+- Gestão Usuário
+- Gestão Greeting
+- Api Gateway
+- Autenticador
+- Eureka
+
+
 
 Acesso ao Rabbitmq: http://localhost:15672/
 
@@ -29,5 +42,6 @@ Acesso ao Zipkin: http://localhost:9411/zipkin
 
 Comando docker para subir o ZipKin: 
 docker run -p 9411:9411 openzipkin/zipkin:2.23.2
+
 
 

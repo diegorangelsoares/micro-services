@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Criacao de service de busca CEP">
-      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/response/EnderecoResponseApiCep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/service/JSONUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-book-service/src/main/java/br/com/erudio/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-book-service/src/main/java/br/com/erudio/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buscacep-service/src/main/java/br/com/erudio/service/CepService.java" beforeDir="false" afterPath="$PROJECT_DIR$/buscacep-service/src/main/java/br/com/erudio/service/CepService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/service/ClienteService.java" afterDir="false" />
+    <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Integração do servico de cadastro com busca CEP">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +194,7 @@
       <workItem from="1633692477253" duration="4124000" />
       <workItem from="1633711504378" duration="1208000" />
       <workItem from="1633952942963" duration="9649000" />
-      <workItem from="1634124539965" duration="18909000" />
+      <workItem from="1634124539965" duration="20364000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes de endpoint post no book">
       <created>1633551777408</created>
@@ -291,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634145432752</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Integração do servico de cadastro com busca CEP">
+      <created>1634148698078</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1634148698078</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +317,8 @@
     <MESSAGE value="Criacao de servico de cadastro de clientes" />
     <MESSAGE value="Ajuste de autenticacao no service de cadastro" />
     <MESSAGE value="Criacao de service de busca CEP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criacao de service de busca CEP" />
+    <MESSAGE value="Integração do servico de cadastro com busca CEP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integração do servico de cadastro com busca CEP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -331,12 +335,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/service/ClienteService.java</url>
-          <line>116</line>
+          <line>117</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/service/ClienteService.java</url>
-          <line>58</line>
+          <line>59</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>

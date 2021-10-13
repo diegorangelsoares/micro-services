@@ -11,16 +11,16 @@ services:
       - "5672:5672"
       - "15672:15672"
 
-  zipkin-server:
+  zipkin:
     image: openzipkin/zipkin:2.23.2
-    container_name: 'zipkin-server'
+    container_name: 'zipkin'
     ports:
       - 9411:9411
     restart: always
-    depends_on:
-      - rabbit-mq
-    environment:
-      RABBIT_URI: anqp://guest:guest@rabbit-mq:5672
+    # depends_on:
+    #   - rabbit
+    # environment:
+    #   RABBIT_URI: anqp://guest:guest@rabbit-mq:5672
     networks:
       - microservices-network
 
