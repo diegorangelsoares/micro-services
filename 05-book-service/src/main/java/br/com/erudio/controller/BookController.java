@@ -15,7 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-@Tag(name = "Book endpoiny")
+@Tag(name = "Book endpoint")
 @RestController
 @RequestMapping("book-service")
 @Slf4j

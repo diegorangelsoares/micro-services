@@ -28,15 +28,17 @@ spring:
 #    validate-on-migrate: false
 #    table: service1_flyway_schema_history
 #    baseline-version: 0
-#  sleuth:
-#    sampler:
-#      probability: 1.0
-#  zipkin:
-#    base-url: http://localhost:9411/
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+    default-property-inclusion: NON_NULL
+  sleuth:
+    sampler:
+      probability: 1.0
 #  config:
 #    import: "optional:configserver:"
-#springdoc:
-#  api-docs:
-#    path: cambio-service/v3/api-docs
-#  show-actuator: true
+springdoc:
+  api-docs:
+    path: cadastro-service/v3/api-docs
+  show-actuator: true
 

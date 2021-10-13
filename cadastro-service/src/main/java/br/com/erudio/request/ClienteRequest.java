@@ -12,4 +12,6 @@ public class ClienteRequest {
     private String nome;
     private Date DataCriacao;
 
+    EnderecoRequest endereco;
+
 }

@@ -55,7 +55,7 @@ spring:
       probability: 1.0
 #  config:
 #    import: "optional:configserver:"
-#springdoc:
-#  api-docs:
-#    path: book-service/v3/api-docs
-#  show-actuator: true
+springdoc:
+  api-docs:
+    path: autentication-service/v3/api-docs
+  show-actuator: true

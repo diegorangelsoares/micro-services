@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/autentication-service/pom.xml" />
         <option value="$PROJECT_DIR$/usuario-service/pom.xml" />
         <option value="$PROJECT_DIR$/cadastro-service/pom.xml" />
+        <option value="$PROJECT_DIR$/buscacep-service/pom.xml" />
       </list>
     </option>
   </component>
