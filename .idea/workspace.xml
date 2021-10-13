@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Criacao de servico de cadastro de clientes">
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/security/JWTAutenticarFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/security/JWTConfiguracao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/security/JWTValidarFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-naming-service/src/main/java/br/com/erudio/NamingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-naming-service/src/main/java/br/com/erudio/NamingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/CadastroServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/CadastroServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadastro-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cadastro-service/src/main/resources/db/migration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -59,8 +59,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cadastro-service/src/main/resources/db/migration" />
       <recent name="$PROJECT_DIR$/cadastro-service/src/main/java/br/com/erudio" />
+      <recent name="$PROJECT_DIR$/cadastro-service/src/main/resources/db/migration" />
       <recent name="$PROJECT_DIR$/autentication-service/src/main/resources/db" />
       <recent name="$PROJECT_DIR$/autentication-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/05-cambio-service/src/main/java/br/com/erudio" />
@@ -78,17 +78,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CadastroServiceApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="06-api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.apigateway.ApiGatewayApplication" />
@@ -185,7 +174,8 @@
       <workItem from="1633632165825" duration="4851000" />
       <workItem from="1633692477253" duration="4124000" />
       <workItem from="1633711504378" duration="1208000" />
-      <workItem from="1633952942963" duration="9493000" />
+      <workItem from="1633952942963" duration="9649000" />
+      <workItem from="1634124539965" duration="2260000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes de endpoint post no book">
       <created>1633551777408</created>
@@ -257,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633981777137</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Criacao de servico de cadastro de clientes">
+      <created>1633982862422</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1633982862422</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
