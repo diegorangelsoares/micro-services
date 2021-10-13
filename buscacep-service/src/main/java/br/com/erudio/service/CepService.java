@@ -47,6 +47,8 @@ public class CepService {
                 endereco = JSONUtils.covertFromJsonToObject(response.get().body(), EnderecoResponse.class);
             }
 
+        endereco.setCep(endereco.getCep().replace("-",""));
+
         return endereco;
     }
 
