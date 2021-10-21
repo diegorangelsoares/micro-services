@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/04-erudio-config-server/erudio-config-server.iml" filepath="$PROJECT_DIR$/04-erudio-config-server/erudio-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-greeting-service/greeting-service.iml" filepath="$PROJECT_DIR$/04-greeting-service/greeting-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-naming-service/naming-service.iml" filepath="$PROJECT_DIR$/06-naming-service/naming-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pedido-service/pedido-service.iml" filepath="$PROJECT_DIR$/pedido-service/pedido-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projeto-microservices.iml" filepath="$PROJECT_DIR$/.idea/projeto-microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/usuario-service/usuario-service.iml" filepath="$PROJECT_DIR$/usuario-service/usuario-service.iml" />
     </modules>

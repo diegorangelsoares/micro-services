@@ -16,6 +16,7 @@
         <module name="buscacep-service" />
         <module name="cadastro-service" />
         <module name="autentication" />
+        <module name="pedido-service" />
         <module name="cambio-service" />
       </profile>
     </annotationProcessing>
@@ -29,6 +30,7 @@
       <module name="erudio-config-server" target="11" />
       <module name="greeting-service" target="11" />
       <module name="naming-service" target="11" />
+      <module name="pedido-service" target="11" />
       <module name="usuario-service" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -43,6 +45,7 @@
       <module name="erudio-config-server" options="-parameters" />
       <module name="greeting-service" options="-parameters" />
       <module name="naming-service" options="-parameters" />
+      <module name="pedido-service" options="-parameters" />
       <module name="usuario-service" options="-parameters" />
     </option>
   </component>

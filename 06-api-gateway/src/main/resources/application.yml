@@ -19,6 +19,10 @@ spring:
           enabled: true
 #          lower-case-service-id: true
       routes:
+      - id: pedido-service
+        uri: lb://pedido-service
+        predicates:
+        - Path=/pedido-service/**
       - id: buscacep-service
         uri: lb://buscacep-service
         predicates:
