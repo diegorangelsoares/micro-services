@@ -41,6 +41,7 @@ public class Pedido  implements Serializable {
     @ManyToOne
     private Cliente cliente;
 
-
+    @ManyToMany
+    private List<BookPedido> books;
 
 }

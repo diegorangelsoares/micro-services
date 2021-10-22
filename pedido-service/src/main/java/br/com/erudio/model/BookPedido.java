@@ -24,8 +24,8 @@ public class BookPedido implements Serializable {
     @Column(nullable = false)
     private Double price;
 
-    @ManyToOne
-    private Pedido pedido;
+//    @ManyToOne
+//    private Pedido pedido;
 
 
 }

@@ -43,13 +43,16 @@ public class PedidoController {
         return ResponseEntity.status(HttpStatus.OK).body(clientes);
     }
 
-//    @Operation(summary = "Save new Pedido")
-//    @PostMapping(value = "/")
-//    public ResponseEntity<Pedido> save(@Validated @RequestBody ClienteRequest clienteRequest) {
-//
-//        log.info("Salvando Pedido...");
-//
-//        return ResponseEntity.status(HttpStatus.CREATED).body(clienteService.salvarNovo(clienteRequest));
-//    }
+    @Operation(summary = "Save new Pedido")
+    @PostMapping(value = "/")
+    public ResponseEntity<Pedido> save(@Validated @RequestBody Pedido clienteRequest) {
+
+        log.info("Salvando Pedido...");
+
+
+        Pedido pedido = pedidoService.salvarNovo(clienteRequest);
+
+        return ResponseEntity.status(HttpStatus.CREATED).body(pedido);
+    }
 
 }
