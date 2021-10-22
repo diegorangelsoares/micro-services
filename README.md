@@ -43,5 +43,8 @@ Acesso ao Zipkin: http://localhost:9411/zipkin
 Comando docker para subir o ZipKin: 
 docker run -p 9411:9411 openzipkin/zipkin:2.23.2
 
+Segue arquivo do postman com exemplos de como consumir a api pedidos
+ - Postman_collection.json
+
 
 

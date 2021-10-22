@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Criando service para gestao de pedidos de book">
+    <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Ajuste no serviço de pedido">
+      <change afterPath="$PROJECT_DIR$/Postman_collection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/controller/PedidoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +202,7 @@
       <workItem from="1634835508157" duration="8708000" />
       <workItem from="1634900619654" duration="50000" />
       <workItem from="1634914768158" duration="3554000" />
-      <workItem from="1634924935763" duration="2520000" />
+      <workItem from="1634924935763" duration="3256000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes de endpoint post no book">
       <created>1633551777408</created>
@@ -329,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634925529133</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Ajuste no serviço de pedido">
+      <created>1634928039645</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1634928039646</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +363,8 @@
     <MESSAGE value="Integração do servico de cadastro com busca CEP" />
     <MESSAGE value="Ajustes de documentação e docker" />
     <MESSAGE value="Criando service para gestao de pedidos de book" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando service para gestao de pedidos de book" />
+    <MESSAGE value="Ajuste no serviço de pedido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste no serviço de pedido" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
