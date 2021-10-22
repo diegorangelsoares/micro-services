@@ -19,4 +19,8 @@ public class ClienteService {
         return clienteRepository.save(cliente);
     }
 
+    public Cliente buscarClientePorCPF(long cpf){
+        return clienteRepository.findByCpf(cpf).get(0);
+    }
+
 }

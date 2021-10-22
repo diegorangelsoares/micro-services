@@ -44,9 +44,19 @@ public class PedidoService {
 
     public Pedido salvarNovo(Pedido pedido){
 
-        Cliente cliente = pedido.getCliente();
-        cliente.setEndereco(enderecoService.SalvarNovo(cliente.getEndereco()));;
-        pedido.setCliente(clienteService.salvarCliente(pedido.getCliente()));
+        if (pedido.getId() != 0){
+            //Verificar se esta sendo enviado um pedido com numero inexistente
+            pedidoRepository.findById(pedido.getId()).orElseThrow(() -> new PedidoNotFoundException(String.format(
+                    "Não existe pedido saldo para alterar com esse ID [%s]!", pedido.getId())));
+        }
+
+        Cliente clientePedido = pedido.getCliente();
+        Cliente clienteExistente = clienteService.buscarClientePorCPF(pedido.getCliente().getCpf());
+        if (clienteExistente!= null){
+            clientePedido = clienteExistente;
+        }
+        clientePedido.setEndereco(enderecoService.SalvarNovo(pedido.getCliente().getEndereco()));;
+        pedido.setCliente(clienteService.salvarCliente(clientePedido));
         pedido.setBooks(bookPedidoService.saveAll(pedido.getBooks()));
 
         return pedidoRepository.save(pedido);

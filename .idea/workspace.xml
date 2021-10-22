@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Ajuste no serviço de pedido">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Ajustes de documentação">
+      <change afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/model/Enum/PedidoStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/PedidoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +204,7 @@
       <workItem from="1634835508157" duration="8708000" />
       <workItem from="1634900619654" duration="50000" />
       <workItem from="1634914768158" duration="3554000" />
-      <workItem from="1634924935763" duration="4469000" />
+      <workItem from="1634924935763" duration="7733000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes de endpoint post no book">
       <created>1633551777408</created>
@@ -349,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634929608970</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Ajustes de documentação">
+      <created>1634929930905</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1634929930905</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +387,8 @@
     <MESSAGE value="Ajustes de documentação e docker" />
     <MESSAGE value="Criando service para gestao de pedidos de book" />
     <MESSAGE value="Ajuste no serviço de pedido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste no serviço de pedido" />
+    <MESSAGE value="Ajustes de documentação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes de documentação" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -405,6 +417,21 @@
           <url>file://$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/PedidoController.java</url>
           <line>52</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/PedidoService.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/PedidoService.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/PedidoService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
