@@ -1,7 +1,12 @@
-# micro-services
+# Micro-services -- Projeto para E-commerce
 
 
-Projeto de reciclagem de conhecimento contento:
+Projeto para E-commerce para reciclagem de conhecimento.
+
+Projeto consiste em diferentes serviços com funcionalidades específicas para facilitar a manutenção sem afetar outras funcionalidades do ecosistema.
+
+Tecnologias utilizadas: 
+
   - Java 11
   - Springboot
   - Springdata
