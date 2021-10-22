@@ -1,6 +1,7 @@
 package br.com.erudio.api.controller;
 
 import br.com.erudio.api.request.PedidoRequest;
+import br.com.erudio.model.BookPedido;
 import br.com.erudio.model.Cliente;
 import br.com.erudio.model.Pedido;
 import br.com.erudio.service.PedidoService;
@@ -25,8 +26,8 @@ public class PedidoController {
     private PedidoService pedidoService;
 
     @Operation(summary = "find a specific Pedido by your ID")
-    @GetMapping(value = "/{id}/")
-    public ResponseEntity<Pedido> findCliente(
+    @GetMapping(value = "/pedido/{id}/")
+    public ResponseEntity<Pedido> findPedido(
             @PathVariable("id") Long id
     ){
         var pedido = pedidoService.finById(id);
@@ -36,7 +37,7 @@ public class PedidoController {
     }
 
     @Operation(summary = "find all Pedidos")
-    @GetMapping(value = "/")
+    @GetMapping(value = "/pedido/")
     public ResponseEntity<List<Pedido>> findAll(){
         List<Pedido> clientes = pedidoService.listAll();
         if (clientes == null) throw new RuntimeException("Pedido not found.");
@@ -45,7 +46,7 @@ public class PedidoController {
     }
 
     @Operation(summary = "Save new Pedido")
-    @PostMapping(value = "/")
+    @PostMapping(value = "/pedido/")
     public ResponseEntity<Pedido> save(@Validated @RequestBody Pedido pedidoRequest) {
 
         log.info("Salvando Pedido...");
@@ -54,6 +55,18 @@ public class PedidoController {
         Pedido pedido = pedidoService.salvarNovo(pedidoRequest);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(pedido);
+    }
+
+    @Operation(summary = "find Books by ID pedido")
+    @GetMapping(value = "/books/{idPedido}/")
+    public ResponseEntity<List<BookPedido>> findBooksPedido(
+            @PathVariable("idPedido") Long idPedido
+    ){
+        var pedido = pedidoService.finById(idPedido);
+        if (pedido == null) throw new RuntimeException("Pedido not found.");
+        List<BookPedido> books = pedido.getBooks();
+
+        return ResponseEntity.status(HttpStatus.OK).body(books);
     }
 
 }

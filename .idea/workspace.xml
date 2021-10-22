@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b875b74e-9ef9-450e-9466-0c5cc4da333f" name="Default Changelist" comment="Criando service para gestao de pedidos de book">
-      <change afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/request/BookPedidoRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/request/ClienteRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/request/EnderecoRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/request/PedidoRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/controller/PedidoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/model/BookPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/model/BookPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/model/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pedido-service/src/main/java/br/com/erudio/api/controller/PedidoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +78,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.PedidoServiceApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="06-api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.apigateway.ApiGatewayApplication" />
@@ -196,7 +201,7 @@
       <workItem from="1634835508157" duration="8708000" />
       <workItem from="1634900619654" duration="50000" />
       <workItem from="1634914768158" duration="3554000" />
-      <workItem from="1634924935763" duration="252000" />
+      <workItem from="1634924935763" duration="2520000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustes de endpoint post no book">
       <created>1633551777408</created>
@@ -317,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634922867053</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Criando service para gestao de pedidos de book">
+      <created>1634925529133</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1634925529133</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
