@@ -21,9 +21,6 @@ public class Endereco  implements Serializable {
     private long id;
     @Column(name = "logradouro", nullable = false, length = 200)
     private String logradouro;
-    @Column(name = "data_criacao", nullable = false)
-    @Temporal(TemporalType.DATE)
-    private Date DataCriacao;
 
     @Column(name = "bairro", length = 50)
     private String bairro;

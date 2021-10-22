@@ -1,5 +1,6 @@
 package br.com.erudio.service;
 
+import br.com.erudio.api.request.PedidoRequest;
 import br.com.erudio.exception.PedidoNotFoundException;
 import br.com.erudio.model.BookPedido;
 import br.com.erudio.model.Cliente;
@@ -9,7 +10,9 @@ import br.com.erudio.repository.PedidoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PedidoService {
@@ -48,5 +51,18 @@ public class PedidoService {
 
         return pedidoRepository.save(pedido);
     }
+
+//    public Pedido parse (PedidoRequest pedidoRequest){
+//        Optional<Pedido> pedido = pedidoRepository.findById(pedidoRequest.getId());
+//        Pedido newPedido = new Pedido();
+//        if (pedido.isEmpty()){
+//            List<BookPedido> book = new ArrayList<>();
+//            for ()
+//
+//        }
+//
+//
+//        return pedido;
+//    }
 
 }

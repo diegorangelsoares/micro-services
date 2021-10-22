@@ -19,6 +19,8 @@ public class BookPedido implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    @Column(name = "nome", nullable = false, length = 180)
+    private String nome;
     @Column(nullable = false)
     private int count;
     @Column(nullable = false)

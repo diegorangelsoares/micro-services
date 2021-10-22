@@ -1,5 +1,6 @@
-package br.com.erudio.controller;
+package br.com.erudio.api.controller;
 
+import br.com.erudio.api.request.PedidoRequest;
 import br.com.erudio.model.Cliente;
 import br.com.erudio.model.Pedido;
 import br.com.erudio.service.PedidoService;
@@ -45,12 +46,12 @@ public class PedidoController {
 
     @Operation(summary = "Save new Pedido")
     @PostMapping(value = "/")
-    public ResponseEntity<Pedido> save(@Validated @RequestBody Pedido clienteRequest) {
+    public ResponseEntity<Pedido> save(@Validated @RequestBody Pedido pedidoRequest) {
 
         log.info("Salvando Pedido...");
 
 
-        Pedido pedido = pedidoService.salvarNovo(clienteRequest);
+        Pedido pedido = pedidoService.salvarNovo(pedidoRequest);
 
         return ResponseEntity.status(HttpStatus.CREATED).body(pedido);
     }

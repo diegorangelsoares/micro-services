@@ -21,9 +21,8 @@ public class Cliente implements Serializable {
     private long id;
     @Column(name = "nome", nullable = false, length = 180)
     private String nome;
-    @Column(name = "data_criacao", nullable = false)
-    @Temporal(TemporalType.DATE)
-    private Date DataCriacao;
+    @Column(name = "cpf", nullable = false)
+    private long cpf;
 
     @ManyToOne
     private Endereco endereco;
